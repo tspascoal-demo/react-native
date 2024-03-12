@@ -8,6 +8,7 @@ jobs:
     submit:
         runs-on: ubuntu-latest
         steps:
+          - run: ls -la './packages/rn-tester/Podfile.lock'
           - name: CocoaPods Dependency Submission Action
             uses: advanced-security/cocoapods-dependency-submission-action@v1.0
             with:
