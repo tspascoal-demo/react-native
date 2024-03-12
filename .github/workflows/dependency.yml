@@ -1,0 +1,12 @@
+name: dependnecy submission
+
+on:
+    push:
+
+
+jobs:
+    submit:
+        runs-on: ubuntu-latest
+        steps:
+          - name: CocoaPods Dependency Submission Action
+            uses: advanced-security/cocoapods-dependency-submission-action@v1.0
