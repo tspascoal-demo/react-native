@@ -11,4 +11,4 @@ jobs:
           - name: CocoaPods Dependency Submission Action
             uses: advanced-security/cocoapods-dependency-submission-action@v1.0
             with:
-                cocoapods-lock: 'packages/rn-tester/Podfile.lock'
+                cocoapods-lock: './packages/rn-tester/Podfile.lock'
